@@ -1,0 +1,67 @@
+-----
+TOTAL Number of samples: 484825
+-----
+
+
+471137 total samples!
+category: World - 81299 samples
+category: Sports - 62151 samples
+category: Entertainment - 60314 samples
+category: Top Stories - 55880 samples
+category: Business - 54432 samples
+category: Sci/Tech - 41184 samples
+category: Europe - 30889 samples
+category: Top News - 23217 samples
+category: Health - 19910 samples
+category: Italia - 13814 samples
+category: U.S. - 13758 samples
+category: TrueEntertainment - 10721 samples
+category: Software and Developement - 2359 samples
+category: Music Feeds - 1207 samples
+16 total categorys, 14 total big categorys.
+
+
+NUMBER OF SAMPLES AFTER MY FILTERING:
+94721 total samples!
+topic: Sci/Tech - 12000 samples
+topic: Europe - 12000 samples
+topic: Sports - 12000 samples
+topic: Health - 12000 samples
+topic: Business - 12000 samples
+topic: World - 12000 samples
+topic: U.S. - 12000 samples
+topic: TrueEntertainment - 10721 samples
+8 total topics, 8 total big topics.
+
+---------------
+STATISTICS:
+Average title size, measured in characters: 42.99
+Max title size, measured in characters: 474.00
+Median title size, measured in characters: 43.00
+Min title size, measured in characters: 1.00
+Standard deviation title size, measured in characters: 12.41
+
+Average title size, measured in words: 5.96
+Max title size, measured in words: 65.00
+Median title size, measured in words: 6.00
+Min title size, measured in words: 0.00
+Standard deviation title size, measured in words: 2.06
+---------------
+
+
+---------------
+STATISTICS:
+Average description size, measured in characters: 184.96
+Max description size, measured in characters: 9539.00
+Median description size, measured in characters: 186.00
+Min description size, measured in characters: 1.00
+Standard deviation description size, measured in characters: 71.59
+
+Average description size, measured in words: 29.41
+Max description size, measured in words: 1623.00
+Median description size, measured in words: 29.00
+Min description size, measured in words: 0.00
+Standard deviation description size, measured in words: 11.95
+---------------
+
+
