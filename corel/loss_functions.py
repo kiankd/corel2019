@@ -4,6 +4,9 @@ from torch.nn.functional import log_softmax
 
 # Helper functions for dealing with AR Loss
 def get_armask(shape, labels, device=None):
+    if labels.dtype != torch.int64:
+        raise TypeError("Labels must be a LongTensor with dtype=int64!")
+
     mask = torch.zeros(shape).to(device)
     arr = torch.arange(0, shape[0]).long().to(device)
 

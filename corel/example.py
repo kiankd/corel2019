@@ -45,7 +45,7 @@ def main():
                               N_classes,
                               lam=0.5,
                               device=device,
-                              corel_option='cosine').to(device)
+                              corel_option='gaussian').to(device)
 
     # get the loss function for this model (how convenient!!)
     loss_function = full_model.get_loss_function()
