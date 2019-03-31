@@ -11,7 +11,7 @@ def get_cce_predictions(hidden_reps, output_weights, bias=None, **kwargs):
 def get_cosine_predictions(hidden_reps, output_weights, **kwargs):
     # very easy to get the cosine similarity predictions!
     X = f.normalize(hidden_reps, p=2, dim=1) # normalize the rows!
-    W = f.normalize(output_weights, p=2, dim=1) # normalize the weights!
+    W = f.normalize(output_weights, p=2, dim=0) # normalize the weights!
     M = X.mm(W) # multiply matrices, M is now the matrix of cossims
     return M
 
