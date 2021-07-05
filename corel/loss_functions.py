@@ -19,7 +19,7 @@ def arloss(attraction_tensor, repulsion_tensor, lam):
     # combine up everything to accumulate across the entire batch
     loss_attraction = attraction_tensor.sum()
     loss_repulsion = repulsion_tensor.sum()
-    arloss = (lam * loss_attraction) + ((1. - lam) * loss_repulsion)
+    arloss = -(lam * loss_attraction) + ((1. - lam) * loss_repulsion)
     return arloss / attraction_tensor.shape[0]
 
 
